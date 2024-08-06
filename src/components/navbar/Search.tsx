@@ -21,7 +21,7 @@ function Search () {
       ARA
     </button>
   </div>
-  <div className="flex relative md:hidden items-center mt-1">
+  <div className="flex relative sm:hidden items-center mt-1">
     <CiSearch className="w-5 h-5 text-gray-500" />
     <input
         type="text"

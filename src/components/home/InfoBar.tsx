@@ -1,5 +1,4 @@
 
-
 const InfoBar = () => {
   return (
     <div className=" hidden md:flex justify-center text-xs gap-3 p-2 ms:gap-10   ">

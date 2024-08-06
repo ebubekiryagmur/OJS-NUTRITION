@@ -1,6 +1,6 @@
 import { Rating } from '@mui/material';
-import React from 'react'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
+
 
 const HomeComments = () => {
     const comments = [
@@ -39,6 +39,8 @@ const HomeComments = () => {
       ];
 
   return (
+    <>
+    
     <div className="p-5 mb-20">
       <div className="container mx-auto">
         <h5 className="text-xl font-semibold">GERÇEK MÜŞTERİ YORUMLARI</h5>
@@ -74,6 +76,7 @@ const HomeComments = () => {
       </div>
       
     </div>
+    </>
   )
 }
 

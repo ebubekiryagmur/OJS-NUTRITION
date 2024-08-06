@@ -12,7 +12,7 @@ export const HamburgerMenu = () => {
 
   return (
     <div className="relative">
-      <div className="flex md:hidden">
+      <div className="flex sm:hidden">
         <button onClick={toggleDrawer} className="p-4">
           <GiHamburgerMenu size="25" />
         </button>

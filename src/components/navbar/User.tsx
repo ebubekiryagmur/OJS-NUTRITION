@@ -1,5 +1,6 @@
 
 import { useState } from 'react';
+import { PiShoppingCartThin } from 'react-icons/pi';
 import { Link } from 'react-router-dom';
 
 function User() {
@@ -13,7 +14,7 @@ function User() {
     <div className="flex justify-end w-full h-12 ps-4 gap-3">
       <div className="relative">
         <div
-          className="hidden md:flex justify-center items-center  border-2 gap-3 h-full px-2 border-themeColor rounded-md cursor-pointer"
+          className="hidden sm:flex justify-center items-center  border-2 gap-3 h-full px-2 border-themeColor rounded-md cursor-pointer"
           onClick={toggleDropdown}
         >
           <img className="pe-4" src="/src/assets/images/user.png" alt="User" />
@@ -31,9 +32,12 @@ function User() {
           </div>
         )}
       </div>
-      <button className="hidden md:flex justify-center items-center gap-2 border-2 px-12 text-white bg-gray-400 rounded-md">
+      <button className="hidden sm:flex justify-center items-center gap-2 border-2 px-12 text-white bg-gray-400 rounded-md">
         <img src="/src/assets/images/sepet.png" alt="Sepet" />
         SEPET
+      </button>
+      <button className='flex sm:hidden'>
+      <PiShoppingCartThin />
       </button>
     </div>
   );

@@ -1,10 +1,9 @@
-import React from 'react'
 
 const Footer = () => {
   return (
     <footer className="bg-neutral-800  ">
     <div className="mx-auto w-full max-w-screen-xl ">
-      <div className="grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4 flex justify-around">
+      <div className="grid grid-cols-3 md:grid-cols-3 gap-10 p-5 lg:py-8 ">
         <div>
             <img className='mb-5' src='/src/assets/images/LOGO_Beyaz.png' />
             <ul className="text-gray-500 dark:text-gray-400 font-medium ">
@@ -103,10 +102,11 @@ const Footer = () => {
         </div>
         
     </div>
-    <div className="px-4 py-6 md:flex md:items-center md:justify-between  ">
-    <span className="text-sm  text-gray-500 dark:text-gray-300 sm:text-center ">Copyright © - Tüm Hakları Saklıdır.
-    </span>
-    </div>
+    <div className="px-4 py-6 md:flex md:items-center md:justify-between">
+          <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
+            Copyright © - Tüm Hakları Saklıdır.
+          </span>
+        </div>
         </div>
         
         

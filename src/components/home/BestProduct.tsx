@@ -13,7 +13,7 @@ interface Product {
 
 const products: Product[] = [
   {
-    id: nanoid(1),
+    id: nanoid(),
     src: '/src/assets/images/Whey protein.png',
     name: 'WHEY PROTEIN',
     explanation: 'EN ÇOK TERCİH EDİLEN PROTEİN TAKVİYESİ',
@@ -22,7 +22,7 @@ const products: Product[] = [
     price: '549 TL',
   },
   {
-    id: nanoid(1),
+    id: nanoid(),
     src: '/src/assets/images/fitness paketi.png',
     name: 'FITNESS PAKETİ',
     explanation: 'EN POPÜLER ÜRÜNLER BİR ARADA',
@@ -31,7 +31,7 @@ const products: Product[] = [
     price: '799 TL',
   },
   {
-    id: nanoid(1),
+    id: nanoid(),
     src: '/src/assets/images/günlük vitamin.png',
     name: 'GÜNLÜK VİTAMİN PAKETİ',
     explanation: 'EN SIK TÜKETİLEN TAKVİYELER',
@@ -40,7 +40,7 @@ const products: Product[] = [
     price: '549 TL',
   },
   {
-    id: nanoid(1),
+    id: nanoid(),
     src: '/src/assets/images/pre-workout.png',
     name: 'PRE-WORKOUT SUPREME',
     explanation: 'ANTRENMAN ÖNCESİ TAKVİYESİ',
@@ -49,7 +49,7 @@ const products: Product[] = [
     price: '399 TL',
   },
   {
-    id: nanoid(1),
+    id: nanoid(),
     src: '/src/assets/images/cream.png',
     name: 'CREAM OF RICE',
     explanation: 'EN LEZZETLİ PİRİNÇ KREMASI',
@@ -58,7 +58,7 @@ const products: Product[] = [
     price: '239 TL',
   },
   {
-    id: nanoid(1),
+    id: nanoid(),
     src: '/src/assets/images/creatine.png',
     name: 'CREATINE',
     explanation: 'EN POPÜLER SPORCU TAKVİYESİ',
