@@ -6,9 +6,9 @@ const Satisfaction = () => {
 
     <div className="bg-neutral-800 py-4 text-white  ">
   <div className=" mb-10 p-4  ">
-    <div className="flex py-4">
+    <div className="flex justify-center  lg:w-1/2   py-4">
     <Rating name="read-only" value={5} readOnly  />
-       (140.000+)
+       <span>(140.000+)</span>
         </div>
 
     <div className="flex justify-start  ">

@@ -68,7 +68,9 @@ const products: Product[] = [
   },
 ];
 
+
   const ProductCard = ({ src, name, explanation, score, comments, price }: Product) => (
+   
   <div className="grid justify-center p-1 ">
     <div className="bg-white  p-4 grid items-center w-full">
       <img className="w-168 h-168 object-cover mb-4 " src={src} alt={name} />
@@ -83,6 +85,7 @@ const products: Product[] = [
       </div>
     </div>
   </div>
+  
 );
 
 
@@ -96,6 +99,7 @@ const BestProduct = () => (
       ))}
     </div>
   </div>
+  
 );
 
 export default BestProduct;

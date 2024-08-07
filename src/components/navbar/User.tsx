@@ -36,9 +36,7 @@ function User() {
         <img src="/src/assets/images/sepet.png" alt="Sepet" />
         SEPET
       </button>
-      <button className='flex sm:hidden'>
-      <PiShoppingCartThin />
-      </button>
+      
     </div>
   );
 }

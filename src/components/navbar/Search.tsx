@@ -1,10 +1,12 @@
-import { CiSearch } from "react-icons/ci"
+
+import { FiSearch } from "react-icons/fi"
 
 
 
 
 function Search () {
     return (
+      <>
       
       <div className=" items-center hidden md:flex relative gap-3 lg:gap-5">
   <div className="flex w-full">
@@ -21,15 +23,16 @@ function Search () {
       ARA
     </button>
   </div>
-  <div className="flex relative sm:hidden items-center mt-1">
-    <CiSearch className="w-5 h-5 text-gray-500" />
-    <input
+</div>
+<div className="flex sm:hidden items-center bg-gray-100 p-2 rounded-lg w-full">
+      <FiSearch className="text-gray-400" size={24} />
+      <input
         type="text"
-        placeholder="ARADIĞINIZ ÜRÜNÜ YAZINIZ."
-        className="ml-2 p-2 border border-gray-600 rounded w-full"
-    />
-</div>
-</div>
+        placeholder="Aradığınız ürünü yazınız."
+        className="ml-2 bg-transparent border-none outline-none w-full"
+      />
+    </div>
+</>
     )
   }
   
